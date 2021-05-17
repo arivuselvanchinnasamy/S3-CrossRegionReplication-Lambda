@@ -1,0 +1,20 @@
+
+#Application properties
+server:
+  port: 8082
+spring:
+  cloud:
+    function:
+      scan:
+        packages: com.arivu.function
+#AWS properties
+cloud:
+  aws:
+    credentials:
+      accessKey: 
+      secretKey: 
+    region:
+      auto: false
+      static: us-east-1
+    stack:
+      auto: false
